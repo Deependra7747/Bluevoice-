@@ -1,0 +1,68 @@
+✅ requirements.txt
+
+nginx
+Copy
+Edit
+numpy
+sounddevice
+speechrecognition
+pyttsx3
+pyautogui
+bleak
+pyaudio
+💡 Tip: Install command for users —
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+
+✅ setup_instructions.md
+
+markdown
+Copy
+Edit
+# Voice-Control System - Setup Guide
+
+This project allows hands-free control of your system using voice commands via a Bluetooth-connected microphone. Features include opening apps, controlling volume, locking/unlocking system, and scanning Bluetooth devices.
+
+
+## 📦 Requirements
+
+
+
+Install all required libraries:
+```bash
+pip install -r requirements.txt
+Note: Mac users may need to install pyaudio using brew install portaudio first.
+
+▶️ How to Run
+Connect your Bluetooth mic.
+
+Open terminal and run:
+
+bash
+Copy
+Edit
+python voice_control.py
+Speak commands like:
+
+"open chrome"
+
+"lock laptop"
+
+"scan bluetooth"
+
+"connect bluetooth device_name"
+
+❌ To Stop
+Say: "exit" or "stop" anytime.
+
+Enjoy voice freedom 🗣💻
+
+yaml
+Copy
+Edit
+
+---
+
